@@ -11,7 +11,7 @@ const user = {
     id:'2'
 }
 
-app.use('/auth/login',(req, res)=>{
+app.post('/auth/login',(req, res)=>{
 
     const { email, password } = req.body;
 
